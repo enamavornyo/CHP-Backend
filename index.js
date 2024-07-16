@@ -24,7 +24,7 @@ const PORT = 3001;
 mongoose
   .connect(process.env.MONGO_URL, {
     dbName: "Dream_Nest",
-    useNewUrlParser: true,
+  /*  useNewUrlParser: true, */ 
     useUnifiedTopology: true,
   })
   .then(() => {
